@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/images/(.*)",
+      "destination": "https://res.cloudinary.com/dan4rv40f/image/upload/f_auto,q_auto/images/$1"
+    }
+  ]
+}
